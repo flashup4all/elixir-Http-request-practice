@@ -1,21 +1,29 @@
 # Servy
 
-**TODO: Add description**
+**TODO: Some random elixir practice**
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `servy` to your list of dependencies in `mix.exs`:
+1. Set up the project:
 
-```elixir
-def deps do
-  [
-    {:servy, "~> 0.1.0"}
-  ]
-end
+    ```sh
+    mix setup
+    ```
+
+2. Fire up the Phoenix endpoint:
+
+    ```sh
+    mix phx.server
+    ```
+
+3. Visit [`localhost:4000`](http://localhost:4000) from your browser.
+
+## App Generation
+
+This app was generated using:
+
+```sh
+mix phx.new servy --live
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/servy](https://hexdocs.pm/servy).
 
